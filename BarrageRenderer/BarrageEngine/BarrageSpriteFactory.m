@@ -47,7 +47,10 @@
         }
         //TODO: 临时这么简单粗暴
         sprite.viewParams = descriptor.params;
+        
+        sprite.isVip = descriptor.isVip;
     }
+    
     return sprite;
 }
 

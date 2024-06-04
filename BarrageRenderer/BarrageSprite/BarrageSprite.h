@@ -41,6 +41,8 @@ extern NSString * const kBarrageRendererContextTimestamp;     // 时间戳
     NSString *_viewClassName;
 }
 
+@property (nonatomic, assign) BOOL isVip;
+
 /// 延时, 这个是相对于rendered的绝对时间/秒
 /// 如果delay<0, 当然不会提前显示 ^ - ^
 @property(nonatomic,assign)NSTimeInterval delay;

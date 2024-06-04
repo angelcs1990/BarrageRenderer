@@ -41,4 +41,7 @@
 /// 弹幕标识符,用于防止弹幕重复,内部一次性生成
 @property(nonatomic,strong,readonly)NSString * identifier;
 
+/// 优先显示Vip队列, Default: NO
+@property (nonatomic, assign) BOOL isVip;
+
 @end
